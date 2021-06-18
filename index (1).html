@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opposite-delta</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDWeuyJP1cyGt6TI5RBZH0D8V1_Hw7sobw"></script>
+</head>
+<body>
+    <h1 style="text-align: center;" id="head">ALT-POLES-DELTA</h1>
+    
+    <h2 id="msg"></h2>
+    <div class="container">
+        
+        <div id="content">Tring to Fetch your location</div>
+        
+        <button type="button" id="but1">Click</button>
+        <div id="curloc" style="display: none;">Your Location : </div>
+        <span id="two">
+            <span>
+                <input id = "latitude" type="text" placeholder="latitude">
+            </span>
+            <span>
+                <input id="longitude" type="text" placeholder="longitude">
+            </span>
+        </span>
+        <span class="three" style="display: none;">
+            <div id="anloc" style="display: none;">Antipode Location: </div>
+            <span>
+                <input id = "alatitude" type="text">
+            </span>
+            <span>
+                <input id="alongitude" type="text">
+            </span>
+            
+        </span>
+        <span id = "sample" style = "width:580px; height:400px; display: hidden;"></span>
+        <span id = "sample2" style = "width:580px; height:400px; display: hidden;"></span>
+        <!--<div id ="but2">
+            <button type="button">Click to refresh</button>
+        </div>-->
+    </div>
+        <button type="button" id="but2">Click to refresh</button>
+<div id="warning">*The locations are given by your browser and it may or may not be accurate</div>
+    <footer>The end</footer>
+    <script src="script.js" charset="utf-8"></script>
+    <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+</body>
+</html>
